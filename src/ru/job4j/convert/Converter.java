@@ -12,7 +12,7 @@ public class Converter {
 
     public static void main(String[] args) {
         int euro = Converter.rubleToEuro(140);
-        System.out.println("140 rebles is " + euro + " euro");
+        System.out.println("140 rubles is " + euro + " euro");
         int in = 140;
         int expected = 2;
         int out = Converter.rubleToEuro(in);
