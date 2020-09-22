@@ -12,7 +12,12 @@ public class Point {
     }
 
     public static void main(String[] args) {
-        double result = Point.distance(0, 0, 2, 0);
-        System.out.println("result (0, 0) to (2, 0) " + result);
+        double resultFirst = Point.distance(0, 0, 2, 0);
+        System.out.println("result (0, 0) to (2, 0) is " + resultFirst);
+        double resultSecond = Point.distance(1, 1, 6, 2);
+        System.out.println("result (0, 0) to (2, 0) is " + resultSecond);
+        double resultThird = Point.distance(0, 2, 3, 2);
+        System.out.println("result (0, 0) to (2, 0) is " + resultThird);
+
     }
 }
