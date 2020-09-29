@@ -5,23 +5,13 @@ import ru.job4j.condition.BonusCupCoffee;
 public class Board {
     public static void paint(int width, int height) {
         for (int row = 0; row < height; row++) {
-            if (row % 2 == 0) {
                 for (int cell = 0; cell < width; cell++) {
-                    if (cell % 2 == 0) {
+                    if ((cell + row) % 2 == 0) {
                         System.out.print("X");
                     } else {
                         System.out.print(" ");
                     }
                 }
-            } else {
-                for (int cell = 0; cell < width; cell++) {
-                    if (cell % 2 != 0) {
-                        System.out.print("X");
-                    } else {
-                        System.out.print(" ");
-                    }
-                 }
-            }
             System.out.println();
         }
     }
