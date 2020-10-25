@@ -4,9 +4,9 @@ public class Story {
     public static void main(String[] args) {
         Pioneer petya = new Pioneer();
         Girl girl = new Girl();
-        Wolf wolf = new Wolf();
+        Wolfy wolfy = new Wolfy();
         girl.help(petya);
-        wolf.eat(girl);
-        petya.kill(wolf);
+        wolfy.eat(girl);
+        petya.kill(wolfy);
     }
 }
